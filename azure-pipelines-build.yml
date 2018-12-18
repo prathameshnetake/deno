@@ -1,0 +1,7 @@
+
+steps:
+- script: ./tools/setup.py
+  displayName: 'setup'
+- script: ./tools/build.py
+  displayName: 'build'
+
